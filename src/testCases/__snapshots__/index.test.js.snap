@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index reducer Test should handle Default Req. 1`] = `
+Object {
+  "currentCount": 0,
+  "gameState": Object {
+    "squares": Array [
+      Object {
+        "_color": "orange",
+        "color": "red",
+        "height": 80,
+        "position": 0,
+        "width": 80,
+        "x": 0,
+        "y": 0,
+      },
+    ],
+  },
+  "maxMoves": 25,
+}
+`;
+
+exports[`Index reducer Test should handle Default Request 1`] = `
+Object {
+  "gameState": Object {
+    "currentCount": 0,
+    "maxMoves": 25,
+    "squares": Array [],
+  },
+}
+`;
+
+exports[`Index reducer Test should return the initial state 1`] = `
+Object {
+  "gameState": Object {
+    "currentCount": 0,
+    "maxMoves": 25,
+    "squares": Array [],
+  },
+}
+`;
